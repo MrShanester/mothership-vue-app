@@ -1,7 +1,8 @@
 <template>
-  <div style="margin: 12px 12px">
-    <img src="../assets/ch_s.png" />
-    <!-- <div>
+  <div sid="main">
+    <div id="container">
+      <img src="../assets/ch_s.png" />
+      <!-- <div>
       <p>
         <strong><a href="https://www.nightprogrammer.com/" target="_blank">Nightprogrammer.com</a></strong>
         : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere, tellus lobortis posuere tempor,
@@ -19,6 +20,7 @@
         justo eu, laoreet magna.
       </p>
     </div> -->
+    </div>
   </div>
 </template>
 
@@ -26,6 +28,20 @@
 img {
   max-width: 100%;
   height: auto;
+}
+
+#container {
+  height: 1920px;
+  width: 1020px;
+  line-height: 1020px;
+  text-align: center;
+  justify-content: center;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>
 

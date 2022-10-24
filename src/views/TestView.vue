@@ -23,7 +23,7 @@
         <ContentToPrint />
       </section>
     </vue-html2pdf>
-    <div>
+    <div id="center">
       <ContentToPrint />
     </div>
   </div>
@@ -68,5 +68,11 @@ export default {
   border-radius: 6px;
   color: #ffffff;
   cursor: pointer;
+}
+
+#center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>
