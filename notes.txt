@@ -1,6 +1,6 @@
 Finished with dynamic solar systems and mothership sheet creator
 
-next project is 3d resume with django and react
+next project is 3d resume with django and react keep this in mind
 
 jobs in the work, Acquco and Opencare dental
 
